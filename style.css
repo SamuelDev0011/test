@@ -1,0 +1,46 @@
+#inputs{
+    width: 800px;
+    height: 50px;
+    color: white;
+    background-color: rgb(27, 34, 66);
+    border: 0;
+    border-radius: 20px;
+    margin-top: 700px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(36, 56, 87),rgb(18, 30, 84));
+}
+
+.Sender{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Sender fieldset{
+    height: 850px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 0;
+    border-radius: 30px;
+}
+
+.Sender legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.submiter{
+    background-image: linear-gradient(to right, rgb(0, 92, 197),rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
